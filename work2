@@ -1,0 +1,35 @@
+#include <iostream>
+#include <string>
+#include <math.h>
+using namespace std;
+void main()
+{
+ string name;
+ string lname;
+ int salary;
+ int sale,revenue=0.0,totalrevenue=0.0;
+ int commission;
+ 
+ 
+ cout<<"Enter Name   : ";
+ cin>>name>>lname;
+ cout<<"Enter Salary : ";
+ cin>>salary;
+ cout<<"Enter Sale   : ";
+ cin>>sale;
+ cout<<"Enter Commission Percent : ";
+ cin>>commission;
+ revenue=sale*commission/100;
+ totalrevenue=salary+revenue;
+ 
+ cout<<endl;
+ cout<<"Your name  = "<<name<<" "<<lname<<endl;
+ cout<<"Total Revenue "<<" "<<totalrevenue<<" Bath"<<endl;
+ cout<<endl;
+ 
+ 
+ cout<<"\tTanabordee Kolak"<<endl;
+ cout<<endl;
+
+	system ("pause"); 
+}
